@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Container } from 'theme-ui'
-import { Layout, Stack, Main, Sidebar, Hero } from '@layout'
+import { Layout, Stack, Main, Sidebar, Hero } from 'packages/flow-ui/flow-ui-theme/src/theme/layout'
 import CardList from '@components/CardList'
 import Divider from '@components/Divider'
 import MemphisPattern from '@components/MemphisPattern'
@@ -8,7 +8,7 @@ import Seo from '@widgets/Seo'
 import NewsletterExpanded from '@widgets/NewsletterExpanded'
 import Sponsor from '@widgets/Sponsor'
 import Categories from '@widgets/Categories'
-import { useBlogCategories } from '@helpers-blog'
+import { useBlogCategories } from 'packages/blog/gatsby-blog-helpers/src/useBlogCategories';
 
 const styles = {
   heroThumbsContainer: {

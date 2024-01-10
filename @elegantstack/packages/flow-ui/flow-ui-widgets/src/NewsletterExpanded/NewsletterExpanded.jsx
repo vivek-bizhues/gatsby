@@ -2,7 +2,7 @@ import React from 'react'
 import { css } from 'theme-ui'
 import { Card, Text, Heading, Box } from 'theme-ui'
 import NewsletterForm from '@components/NewsletterForm'
-import useMailChimp from '@helpers/useMailChimp'
+import useMailChimp from 'packages/common/gatsby-common-helpers/src/useMailChimp';
 import { FaRegPaperPlane, FaWind } from 'react-icons/fa'
 
 const styles = {

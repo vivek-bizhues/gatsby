@@ -2,7 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { helmetJsonLdProp } from 'react-schemaorg'
 import { getSrc } from 'gatsby-plugin-image'
-import useSiteMetadata from '@helpers-blog/useSiteMetadata'
+import useSiteMetadata from 'packages/blog/gatsby-blog-helpers/src/useSiteMetadata';
 import getImageVariant from '@components/utils/getImageVariant'
 
 const Seo = ({

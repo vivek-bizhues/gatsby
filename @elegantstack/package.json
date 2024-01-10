@@ -2,15 +2,27 @@
   "name": "elegantstack",
   "private": true,
   "license": "",
-  "workspaces": ["packages/**", "site"],
+  "workspaces": [
+    "packages/**",
+    "site"
+  ],
   "scripts": {
-    "clean": "lerna clean",
-    "release": "lerna version"
+    "start": "next",
+    "build": "next build",
+    "dev": "next dev"
   },
   "devDependencies": {
     "conventional-changelog-conventionalcommits": "^4.6.3"
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@elegantstack/gatsby-theme-flexiblog-beauty": "^4.0.0",
+    "gatsby": "^5.13.1",
+    "gatsby-plugin-mailchimp": "^5.2.2",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
